@@ -2,6 +2,7 @@
 Function for merging parent record and update child's foreign key to parent
 
 Test it before use, use it at your own risk!!!!
+Barely tested in yugabyte 2.11 (postgres 11)
 
 
 merge_all(var_table_name, var_id1, var_id2) without delete
